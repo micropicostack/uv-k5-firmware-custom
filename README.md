@@ -2,7 +2,7 @@
 
 <img src="images/radio_picture.jpg" width=300 align="right"/>
 
-This repository is a fork of [Egzumer firmare](https://github.com/egzumer/uv-k5-firmware-custom) plus my changes:
+This repository is a fork of [Egzumer firmware](https://github.com/egzumer/uv-k5-firmware-custom) plus my changes:
 
 * `ENABLE_SPECTRUM_CHANNEL_SCAN` this enables spectrum channel scan mode (enter by going into memory mode and press F+5, this allows SUPER fast channel scanning (**4.5x faster than regular scanning**), regular scan of 200 memory channels takes roughly 18 seconds, **spectrum memory scan takes roughly 4 seconds**, if you have less channels stored i.e 50 - the spectrum memory scan will take only **1 second**
 * **NUNU Protocol** - message hopping mesh network functionality which allows to extend the range of infrastructure-less communications via intermediate stations (nodes), more info at [Mesh network](https://github.com/kamilsss655/uv-k5-firmware-custom/wiki/43-%E2%80%90-Mesh-network)
